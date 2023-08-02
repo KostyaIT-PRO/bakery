@@ -1,0 +1,126 @@
+body{
+    background-color: #FFE2B0;
+    padding-bottom: 10px;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.nav-bar{
+ text-align: center;
+ margin-bottom: 20px;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #000;
+    margin-right: 100px;
+}
+
+.nav-bar a:last-child{
+    margin: 0;
+}
+
+.section-fontsimg{
+    height: 640px;
+    background-image: url(../img/01-imgfons.jpg);
+    background-position: center;
+    background-size:cover;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.section-fontsimg__bloc{
+    width: 420px;
+    height: 190px;
+    background: linear-gradient(180deg, rgba(244, 213, 178, 0.8)0%, rgba(234, 156, 65, 0.8)100%);
+    position: absolute;
+    margin:349px 0 0 740px;
+    box-sizing: border-box;
+    padding-top: 15px;
+}
+
+.section-fontsimg__bloc__border{
+    width: 390px;
+    height: 160px;
+    border: #000 1px solid;
+    margin: 0 auto;
+    box-sizing:border-box;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+.section-fontsimg__bloc__border h2{
+    font-size: 36px;
+    margin-top: 17px;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.section-fontsimg__bloc__border p{
+    font-size: 12px;
+    margin-top: 9px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bloc-icons{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bloc-icons img{
+    width: 290px;
+    height: 290px;
+    margin-right: 76px;
+}
+
+.bloc-icons img:last-child{
+    margin: 0;
+}
+
+.sectioninfo{
+    text-align: center;
+}
+
+.sectioninfo h1{
+    font-size: 96px;
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.sectioninfo p{
+    width: 1000px;
+    font-size: 18px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sectioninfo span{
+    color: red;
+}
+
+.sectioninfo h3{
+    font-size: 36px;
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.sectioncart{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.line{
+    width: 1024px;
+    height: 1px;
+    background-color:#999999;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
